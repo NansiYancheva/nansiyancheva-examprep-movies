@@ -27,7 +27,7 @@ jobs:
       run: echo "nansiyancheva"
 
   deploy:
-    needs: build-test
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to production
